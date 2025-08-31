@@ -1,74 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="identite.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Identité</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="identite.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Identité</title>
 </head>
+
 <body>
-    <div class="profile">
-        <header class="profile__header">
-            <div class="stats-container">
-                <div class="stat">
-                    <span class="stat-value">Student</span>
-                    <p>3rd year</p>
-                </div>
-                <div class="stat">
-                    <span class="stat-value">Major</span>
-                    <p>Computer Science</p>
-                </div>
-                <div class="stat">
-                    <span class="stat-value">Speciality</span>
-                    <p>ISIL</p>
-                </div>
-                
-            </div>
-            
-            <div class="profile__avatar">
-                <img src="profile_image.jpg" loading="lazy" alt="Mentor profile">
-            </div>
-            
-            <div class="profile__name">
-                <h2>Talahari Yassine <span class="verified-icon"><img src="verified.png" alt="Verified"></span></h2>
-                <p>He / Him</p>
-            </div>
-        </header>
-        
-        <ul class="social-links">
-            <li><a href="https://www.linkedin.com/in/yassine-talahari
+  <div class="profile">
+    <header class="profile__header">
+      <div class="stats-container">
+        <div class="stat">
+          <span class="stat-value">Student</span>
+          <p>3rd year</p>
+        </div>
+        <div class="stat">
+          <span class="stat-value">Major</span>
+          <p>Computer Science</p>
+        </div>
+        <div class="stat">
+          <span class="stat-value">Speciality</span>
+          <p>ISIL</p>
+        </div>
+
+      </div>
+
+      <div class="profile__avatar">
+        <img src="profile_image.jpg" loading="lazy" alt="Mentor profile">
+      </div>
+
+      <div class="profile__name">
+        <h2>Talahari Yassine <span class="verified-icon"><img src="verified.png" alt="Verified"></span></h2>
+        <p>He / Him</p>
+      </div>
+    </header>
+
+    <ul class="social-links">
+      <li><a href="https://www.linkedin.com/in/yassine-talahari
                   -78956a309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=
                   android_app"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="https://www.facebook.com/share/19ymP14dcr/"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/yacine__.ta?igsh=MXZ5YmQ2Nmdqb3Bndg=="><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://x.com/talahriyacine?t=BIyHVcUWxsUI7_K-tO3rWg&s=09"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://github.com/yacinetalahari"><i class="fab fa-github"></i></a></li>
-        </ul>
-        
-        <main>
-  <div class="tabs-wrapper">
-    <ul class="tabs">
-      <li><button data-tab="about">About me</button></li>
-      <li><button data-tab="skills">Skills</button></li>
-      <li><button data-tab="reviews">Reviews</button></li>
+      <li><a href="https://www.facebook.com/share/19ymP14dcr/"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com/yacine__.ta?igsh=MXZ5YmQ2Nmdqb3Bndg=="><i class="fab fa-instagram"></i></a>
+      </li>
+      <li><a href="https://x.com/talahriyacine?t=BIyHVcUWxsUI7_K-tO3rWg&s=09"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://github.com/yacinetalahari"><i class="fab fa-github"></i></a></li>
     </ul>
+
+    <main>
+      <div class="tabs-wrapper">
+        <ul class="tabs">
+          <li><button data-tab="about">About me</button></li>
+          <li><button data-tab="skills">Skills</button></li>
+          <li><button data-tab="reviews">Reviews</button></li>
+        </ul>
+      </div>
+
+      <div id="about" class="tab-content tab-content--active">
+        <p>still debutant , looking for more</p>
+      </div>
+      <div id="skills" class="tab-content">
+        <p>Html, CSS, PHP, JS, Next.js, C, C++, Game Dev, Video Editing</p>
+      </div>
+      <div id="reviews" class="tab-content">
+        <p>No reviews yet ...</p>
+      </div>
+    </main>
+
+    <a href="#" class="btn btn--primary">see more</a>
   </div>
 
-  <div id="about" class="tab-content tab-content--active">
-    <p>still debutant , looking for more</p>
-  </div>
-  <div id="skills" class="tab-content">
-    <p>Html, CSS, PHP, JS, Next.js, C, C++, Game Dev, Video Editing</p>
-  </div>
-  <div id="reviews" class="tab-content">
-    <p>No reviews yet ...</p>
-  </div>
-</main>
-        
-        <a href="#" class="btn btn--primary">see more</a>
-    </div>
-    
-    <script src="identite.js"></script>
+  <script src="identite.js"></script>
 </body>
+
 </html>
